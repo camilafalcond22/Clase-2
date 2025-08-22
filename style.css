@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #ffc5d3;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+	color:#f74780;
+	text-decoration: none;
+	transition: all ease 1s;
+
+}
+
+a:hover{
+	color: #f74780;
+	text-decoration: underline;
+	transition: all ease 1s;
+}
+
+a:hover:after{
+	content: "<3";
+}
+
+h1{
+	font-size: calc(3rem + 5vw);
+}
+
+#bloque {
+	margin:5rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, .2);
+	border-radius: 1rem;
+	box-shadow: 0 0 5px white;
+}
+
+.notable {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+canvas {
+	display: block;
+}
